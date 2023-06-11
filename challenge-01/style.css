@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: sans-sarif;
+}
+
+.contaner {
+  padding: 2em;
+  background: #23424a;
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+.intro-content {
+  width: 50%;
+}
