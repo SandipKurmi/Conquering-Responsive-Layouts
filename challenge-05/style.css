@@ -1,0 +1,189 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  /* color-scheme: light dark; */
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background: #136c72;
+}
+
+nav {
+  padding: 2rem 0rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-list-primery {
+  margin: auto;
+}
+
+.logo {
+  margin-right: 2rem;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list__item {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-right: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+.intro-contener {
+  width: 100%;
+
+  background: #23424a;
+  color: white;
+}
+
+.contaner {
+  width: 80%;
+  margin: 0px auto;
+  max-width: 1100px;
+}
+
+.main-contener-content {
+  padding: 8rem 0rem;
+  width: 65%;
+}
+
+.main-heading {
+  font-size: 3.5rem;
+  margin-top: 2rem 0rem;
+  font-weight: bold;
+}
+
+.main-paragraph {
+  margin: 2rem 0rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.main-contener-img {
+  padding: 8rem 0rem;
+  width: 30%;
+}
+
+button {
+  background: #38cfd9;
+  padding: 0.5em 2em;
+  font-size: 1.5em;
+  font-weight: 500;
+  border: none;
+  border-radius: 2rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.j-center {
+  justify-content: space-between;
+}
+
+.intro-contener-1 {
+  width: 100%;
+}
+
+.main-contener-content-1 {
+  padding: 8rem 0rem;
+}
+
+.second-main-contenre-1 {
+  width: 50%;
+  height: 50%;
+}
+
+.second-main-contenre-2 {
+  width: 40%;
+}
+
+.main-heading-2 {
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #136c72;
+}
+
+.main-paragraph-2 {
+  margin: 2rem 0rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.second-main-contenre-2 {
+  background: #136c72;
+  color: white;
+}
+
+.row {
+  padding: 2rem 4rem;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.col {
+  text-align: center;
+}
+
+.col h2 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.col p {
+  margin: 2rem 0rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.signIn__button {
+  background: white;
+  padding: 0.5em 2em;
+  font-size: 1.5em;
+  font-weight: 500;
+  border: none;
+  border-radius: 2rem;
+}

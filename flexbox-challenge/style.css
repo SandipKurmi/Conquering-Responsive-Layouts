@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  /* color-scheme: light dark; */
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+.contaner {
+  width: 80%;
+  margin: 0px auto;
+  max-width: 1100px;
+}
+
+.frist-main-section {
+  background-color: #f3eed9;
+}
+
+.second-main-section {
+  background-color: white;
+}
+
+.frist-content {
+  padding: 15rem;
+  text-align: center;
+}
+
+.second-content {
+  padding: 10rem 0rem;
+}
+
+.second-content h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #824936;
+  margin-bottom: 3rem;
+}
+
+.second-content p {
+  width: 48%;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.frist-content p {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.frist-content h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #824936;
+}
+
+.third-main-section {
+  background-color: #222c2a;
+  color: white;
+}
+
+.third-content {
+  padding: 10rem 0rem;
+}
+
+.third-content p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.third-content h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.fourth-main-section {
+  background-color: #824936;
+  color: white;
+}
+
+.fourth-content {
+  padding: 10rem 0rem;
+}
+
+.fourth-content p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.fourth-content h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.equal-weight {
+  width: 48%;
+}

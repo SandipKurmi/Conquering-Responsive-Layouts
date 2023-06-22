@@ -20,34 +20,45 @@
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.intro{
-  background: #23424A;
-  color: #ffffff;
-  width: 100%;
-}
-
-.contaner{
+.contaner {
   width: 80%;
-  margin: 0 auto;
-  padding: 4em 0em;
+  margin: 0px auto;
+  max-width: 1100px;
 }
 
+.col + .col {
+  margin-left: 2rem;
+}
 
-.intro-content{
+.col h1 {
+  color: #87629a;
+}
+
+.col p {
+  color: #3a3a3a;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-content {
+  padding: 4rem 0px;
   width: 50%;
-  
 }
 
-p{
+p {
   font-size: 1rem;
   font-weight: 400;
 }
 
-button{
-  background: #38CFD9;
+button {
+  background: #38cfd9;
   padding: 0.5em 2em;
   margin-top: 1em;
   font-size: 1em;
@@ -55,12 +66,30 @@ button{
   border-radius: 2rem;
 }
 
-.row{
+.hero-footer-div {
   display: flex;
-  flex-direction: row;
 }
 
-
-.col{
+.intro {
+  background: #23424a;
+  color: #ffffff;
   width: 100%;
+}
+
+.intro-2 {
+  padding: 2rem 0rem;
+  width: 100%;
+  line-height: 1.5rem;
+}
+
+.intro-3 {
+  padding: 2rem 0rem;
+  background: #136c72;
+  color: #ffffff;
+  width: 100%;
+  line-height: 1.5rem;
+}
+
+.content-text {
+  text-align: center;
 }
