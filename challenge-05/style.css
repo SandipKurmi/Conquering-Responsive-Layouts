@@ -187,3 +187,29 @@ button {
   border: none;
   border-radius: 2rem;
 }
+
+@media screen and (max-width: 600px) {
+  .contaner,
+  .half-second-main-contenre {
+    display: block;
+  }
+
+  .logo,
+  img {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .main-contener-content,
+  .main-contener-img,
+  .second-main-contenre-1,
+  .second-main-contenre-2 {
+    width: 100%;
+  }
+
+  .main-contener-img {
+    padding: 1em 0em 4em 0em;
+  }
+}
+
+/* 600px, 900px, 1200px, and 1800px */
